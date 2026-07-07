@@ -1,0 +1,539 @@
+<!-- RESOURCES PAGE: Hero + Tools + Downloads -->
+<style>
+  .resources-hero {
+    background: linear-gradient(160deg, #0f1f3d 0%, #132a52 60%, #0a1730 100%);
+    padding: 90px 24px 60px;
+    text-align: center;
+    position: relative;
+  }
+  .resources-hero h1 {
+    font-family: Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0;
+  }
+  .resources-breadcrumb {
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 100px;
+    padding: 8px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #0f1f3d;
+    margin-top: 24px;
+  }
+  .resources-breadcrumb a { color: #0f1f3d; text-decoration: none; }
+
+  .res-section {
+    padding: 64px 24px;
+  }
+  .res-section.alt { background: #F5F5F2; }
+
+  .res-heading-wrap {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 44px;
+  }
+  .res-eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0F8796;
+    margin-bottom: 10px;
+  }
+  .res-heading {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #0f1f3d;
+    margin: 0;
+  }
+  .res-sub {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #5b6472;
+    margin-top: 12px;
+  }
+
+  .res-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .res-card {
+    background: #ffffff;
+    border: 1px solid #e5e5e0;
+    border-radius: 12px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .res-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(15, 31, 61, 0.14);
+  }
+  .res-section.alt .res-card { background: #ffffff; }
+  .res-badge-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 16px;
+  }
+  .res-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    background: #0f1f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .res-price {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+  .res-price.free {
+    background: #D4EEF1;
+    color: #0F8796;
+  }
+  .res-price.paid {
+    background: #0f1f3d;
+    color: #ffffff;
+  }
+  .res-card-title {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #0f1f3d;
+    margin: 0 0 10px;
+  }
+  .res-card-desc {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #5b6472;
+    line-height: 1.6;
+    margin: 0 0 20px;
+    flex-grow: 1;
+  }
+  .res-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #0F8796;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    align-self: flex-start;
+    transition: background 0.2s ease;
+  }
+  .res-cta:hover { background: #0c6b77; }
+</style>
+
+<!-- HERO -->
+<section class="resources-hero">
+  <h1>Resources</h1>
+  <div class="resources-breadcrumb"><a href="#">Home</a> &rarr; Resources</div>
+</section>
+
+<!-- TOOLS SECTION -->
+<section class="res-section">
+  <div class="res-heading-wrap">
+    <div class="res-eyebrow">Tools</div>
+    <h2 class="res-heading">Explore Our Tools</h2>
+    <p class="res-sub">See exactly where your numbers stand.</p>
+  </div>
+
+  <div class="res-grid">
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">$</div>
+        </div>
+      <h3 class="res-card-title">Wrap Rate Calculator</h3>
+      <p class="res-card-desc">Know your true cost rate before you price another contract. Walks you through your cost structure step by step.</p>
+      <a class="res-cta" href="https://go.solvability.com/lead-capture" target="_blank" rel="noopener">Try It &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">&#10003;</div>
+        </div>
+      <h3 class="res-card-title">GovCon Financial Readiness Score</h3>
+      <p class="res-card-desc">Ten questions. Instant score. Find out where your financial systems stand before your customer does.</p>
+      <a class="res-cta" href="https://go.solvability.com/lead-capture-gcr" target="_blank" rel="noopener">Try It &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">&#8599;</div>
+        </div>
+      <h3 class="res-card-title">RPM Demo</h3>
+      <p class="res-card-desc">See how a 3-point swing in your G&amp;A rate can cost $50,000 on a single contract — a real model, built on a fictional company.</p>
+      <a class="res-cta" href="https://solvabilityjwc.github.io/rpm-demo/rpm_demo.html" target="_blank" rel="noopener">Try It &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- DOWNLOADS SECTION -->
+<section class="res-section alt">
+  <div class="res-heading-wrap">
+    <div class="res-eyebrow">Downloads</div>
+    <h2 class="res-heading">Guides and Excel Tools You Can Put to Work Right Away</h2>
+  </div>
+
+  <div class="res-grid">
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">G</div>
+      </div>
+      <h3 class="res-card-title">Wrap Rate Guide</h3>
+      <p class="res-card-desc">A plain-English walkthrough of Fringe, Overhead, and G&amp;A — and exactly how each rate is calculated.</p>
+      <a class="res-cta" href="https://go.solvability.com/lead-capture-wrg" target="_blank" rel="noopener">Get It &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">M</div>
+      </div>
+      <h3 class="res-card-title">GovCon Small Business Growth Model</h3>
+      <p class="res-card-desc">Seven stages, twenty benchmarks — a framework for scaling your GovCon business beyond startup.</p>
+      <a class="res-cta" href="https://solvabilityjwc.github.io/growth-model/GovCon_Small_Business_Growth_Model.pdf" target="_blank" rel="noopener">Get It &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">X</div>
+      </div>
+      <h3 class="res-card-title">Wrap Rate to Excel</h3>
+      <p class="res-card-desc">Take your wrap rate calculation out of the browser and into a spreadsheet you can build on.</p>
+      <a class="res-cta" href="https://go.solvability.com/wrap-rate-excel-927949" target="_blank" rel="noopener">Get It &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">X</div>
+      </div>
+      <h3 class="res-card-title">SCA Fringe in Excel</h3>
+      <p class="res-card-desc">Model Service Contract Act fringe benefits accurately, with the calculations already built for you.</p>
+      <a class="res-cta" href="https://solvabilityjwc.github.io/sca-fringe-rate-calculator/sca_fringe_rate_calculator.html" target="_blank" rel="noopener">Get It &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">X</div>
+      </div>
+      <h3 class="res-card-title">Fixed Price Inversion</h3>
+      <p class="res-card-desc">See exactly how a fixed-price contract can invert your margin — and model it against your own numbers.</p>
+      <a class="res-cta" href="https://solvabilityjwc.github.io/fpi-analyzer/fpi_analyzer.html" target="_blank" rel="noopener">Get It &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- RECOMMENDED RESOURCES SECTION -->
+<section class="res-section">
+  <div class="res-heading-wrap">
+    <div class="res-eyebrow">Recommended</div>
+    <h2 class="res-heading">Resources From Other GovCon Experts</h2>
+    <p class="res-sub">Trusted resources outside of Solvability, worth your time.</p>
+  </div>
+
+  <div class="res-grid">
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">K</div>
+      </div>
+      <h3 class="res-card-title">AI Masterclass for GovCons</h3>
+      <p class="res-card-desc">Kristy Pittman's masterclass helping government contractors put AI to work in their business.</p>
+      <a class="res-cta" href="https://go.peakperformancestrategies.net/masterclass" target="_blank" rel="noopener">Learn More &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">B</div>
+      </div>
+      <h3 class="res-card-title">Kristy Pittman's Book</h3>
+      <p class="res-card-desc">A must-read from Kristy Pittman of Peak Performance Strategies for GovCon business owners.</p>
+      <a class="res-cta" href="https://a.co/d/01SFFEae" target="_blank" rel="noopener">View on Amazon &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">B</div>
+      </div>
+      <h3 class="res-card-title">Game Changers for Government Contractors</h3>
+      <p class="res-card-desc">Insider tips and advice from the industry's top experts — contributing chapter by Jenny Clark.</p>
+      <a class="res-cta" href="https://a.co/d/0em1yugt" target="_blank" rel="noopener">View on Amazon &rarr;</a>
+    </div>
+
+    <div class="res-card">
+      <div class="res-badge-row">
+        <div class="res-icon">B</div>
+      </div>
+      <h3 class="res-card-title">Becoming a GovCon Expert</h3>
+      <p class="res-card-desc">How to accelerate your success in government contracting — contributing chapter by Jenny Clark.</p>
+      <a class="res-cta" href="https://a.co/d/0aM963JU" target="_blank" rel="noopener">View on Amazon &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== YOUTUBE SECTION ===== -->
+<!-- YouTube Video Library Section -->
+<style>
+  .video-section {
+    background: #F5F5F2;
+    padding: 64px 24px;
+    text-align: center;
+  }
+  .video-eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #0F8796;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .video-heading {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #0f1f3d;
+    margin: 0 0 12px;
+  }
+  .video-sub {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #5b6472;
+    max-width: 560px;
+    margin: 0 auto 32px;
+  }
+  .video-embed-wrap {
+    max-width: 860px;
+    margin: 0 auto 28px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(15, 31, 61, 0.16);
+    background: #0f1f3d;
+  }
+  .video-embed-wrap iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+  }
+  .video-channel-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #0f1f3d;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .video-channel-cta:hover {
+    background: #182b52;
+  }
+</style>
+
+<section class="video-section">
+  <div class="video-eyebrow">Video Training</div>
+  <h2 class="video-heading">Watch on YouTube</h2>
+  <p class="video-sub">New videos on the Rate &amp; Pricing Model (RPM) and other GovCon tools, added regularly.</p>
+
+  <div class="video-embed-wrap">
+    <iframe
+      src="https://www.youtube.com/embed/videoseries?list=PL4J13n1IGnE0ObL-tQVVIizOYx05NanWD"
+      title="Solvability GovCon video playlist"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <a class="video-channel-cta" href="https://www.youtube.com/@Solvability" target="_blank" rel="noopener">
+    Visit my YouTube channel &rarr;
+  </a>
+</section>
+
+<!-- ===== GOVOLOGY COURSES SECTION ===== -->
+<!-- Govology Courses Section -->
+<style>
+  .courses-section {
+    background: #ffffff;
+    padding: 64px 24px;
+    text-align: center;
+  }
+  .courses-eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #0F8796;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .courses-heading {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #0f1f3d;
+    margin: 0 0 12px;
+  }
+  .courses-sub {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #5b6472;
+    max-width: 560px;
+    margin: 0 auto 40px;
+  }
+  .courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .course-card {
+    background: #F5F5F2;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e5e0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .course-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(15, 31, 61, 0.14);
+  }
+  .course-year {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #0F8796;
+    background: #D4EEF1;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    align-self: flex-start;
+  }
+  .course-badge-upcoming {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: #0f1f3d;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+  }
+  .course-title {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #0f1f3d;
+    margin: 0 0 10px;
+    line-height: 1.35;
+  }
+  .course-desc {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #5b6472;
+    line-height: 1.5;
+    margin: 0 0 20px;
+    flex-grow: 1;
+  }
+  .course-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #0F8796;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    align-self: flex-start;
+    transition: background 0.2s ease;
+  }
+  .course-cta:hover {
+    background: #0c6b77;
+  }
+  @media (max-width: 520px) {
+    .courses-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<section class="courses-section">
+  <div class="courses-eyebrow">On-Demand Training</div>
+  <h2 class="courses-heading">GovCon Courses on Govology</h2>
+  <p class="courses-sub">Practical, on-demand training for federal contractors — taught by Jenny Clark, GovConCFO.</p>
+
+  <div class="courses-grid">
+
+    <div class="course-card">
+      <span class="course-year">2025 UPDATE</span>
+      <h3 class="course-title">Financial Freedom Comes at a Price! It's Your Wrap Rate.</h3>
+      <p class="course-desc">How to calculate your true wrap rate and use it to price contracts with confidence instead of guesswork.</p>
+      <a class="course-cta" href="https://govology.com/product/wrap-rate/" target="_blank" rel="noopener">View on Govology &rarr;</a>
+    </div>
+
+    <div class="course-card">
+      <span class="course-year">2021</span>
+      <h3 class="course-title">Finessing Your Fringe, Overhead and G&amp;A Rates</h3>
+      <p class="course-desc">How managing your fringe, overhead, and G&amp;A costs drives faster growth and greater profit.</p>
+      <a class="course-cta" href="https://govology.com/product/finessing-your-fringe-overhead-and-ga-rates/" target="_blank" rel="noopener">View on Govology &rarr;</a>
+    </div>
+
+    <div class="course-card">
+      <span class="course-year">2022</span>
+      <h3 class="course-title">Setting up Your QuickBooks Pro for DCAA Compliance (3-Part Series)</h3>
+      <p class="course-desc">A step-by-step walkthrough for structuring QuickBooks Pro desktop to meet DCAA accounting system requirements.</p>
+      <a class="course-cta" href="https://govology.com/product/setting-up-your-quickbooks-pro-for-dcaa-compliance-3-part-series/" target="_blank" rel="noopener">View on Govology &rarr;</a>
+    </div>
+
+    <div class="course-card">
+      <span class="course-year">2021 UPDATE</span>
+      <h3 class="course-title">How Do We Drive Down Overhead?</h3>
+      <p class="course-desc">Practical steps to find where your costs are too high and take action to improve your pricing and margins.</p>
+      <a class="course-cta" href="https://govology.com/product/how-do-we-drive-down-overhead/" target="_blank" rel="noopener">View on Govology &rarr;</a>
+    </div>
+
+    <div class="course-card">
+      <span class="course-year">2021</span>
+      <h3 class="course-title">Accounting System Checklist for DCAA Compliance (SF1408)</h3>
+      <p class="course-desc">What it takes to become DCAA compliant and pass a Pre-Award Survey using the SF1408 checklist.</p>
+      <a class="course-cta" href="https://govology.com/product/accounting-system-checklist-for-dcaa-compliance-sf1408/" target="_blank" rel="noopener">View on Govology &rarr;</a>
+    </div>
+
+  </div>
+</section>
